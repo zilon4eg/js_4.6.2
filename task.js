@@ -11,6 +11,7 @@ menu.forEach(function(el) {
 
         let menuParant = el.closest('.menu__item');
         let menuSub = menuParant.querySelector('.menu_sub');
+        console.log(menuSub);
         if (menuSub.className.includes('menu_active')) {
             menuSub.className = 'menu menu_sub';
         }
